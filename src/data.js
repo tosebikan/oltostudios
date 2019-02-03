@@ -122,7 +122,7 @@ const data = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
       githubUrl: "https://richhomesgh.com",
-      type: "mobile"
+      type: "web"
     },
     {
       id: "12",
