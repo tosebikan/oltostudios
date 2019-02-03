@@ -32,7 +32,6 @@ const data = {
       images: [
         require("./images/ax/ax2.jpg"),
         require("./images/ax/ax1.jpg"),
-
         require("./images/ax/ax3.jpg"),
         require("./images/ax/ax4.jpg")
       ],
@@ -46,7 +45,6 @@ const data = {
     {
       id: "1",
       title: "Richhomes",
-
       info: "Real estate web app built on React",
       logo: require("./images/logos/richhomesg&b.png"),
       images: [
@@ -63,11 +61,9 @@ const data = {
       githubUrl: "https://github.com/tosebikan/richhomesgh",
       type: "web"
     },
-  
-  
     {
       id: "5",
-      title: "Pharma",
+      title: "Educate",
       info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
@@ -109,7 +105,7 @@ const data = {
     },
     {
       id: "7",
-      title: "Enroute",
+      title: "Grow your agency",
       info:
         "Recurring vehicle hailing service mobile app built on React-Native",
       logo: 'require("./images/logos/axtella")',
@@ -128,10 +124,6 @@ const data = {
       githubUrl: "https://richhomesgh.com",
       type: "mobile"
     },
-  
-  
-  
-  
     {
       id: "12",
       title: "Pakam",
@@ -186,7 +178,189 @@ const data = {
       url: "https://pharma.com",
       githubUrl: "https://richhomesgh.com",
       type: "mobile"
-    }
+    },
+    {
+      id: "14",
+      title: "UGC creator app",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "15",
+      title: "Werise",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "16",
+      title: "Tradex",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "17",
+      title: "Ayo Music app",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "18",
+      title: "OWNU",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "19",
+      title: "Shreddy",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "20",
+      title: "Grow",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "21",
+      title: "Morsia",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "22",
+      title: "Educate",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "23",
+      title: "FJSS",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "24",
+      title: "Justice movement",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "25",
+      title: "Wallesschurch ",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "26",
+      title: "Sirus construction",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
   ]
 };
 
