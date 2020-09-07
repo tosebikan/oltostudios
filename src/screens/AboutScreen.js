@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./aboutScreen.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
   faArrowUp,
-  faAngleDoubleRight
+  faAngleDoubleRight,
+  faPaperPlane
 } from "@fortawesome/free-solid-svg-icons";
 
 function AboutScreen() {
@@ -20,17 +22,21 @@ function AboutScreen() {
             Github
             <FontAwesomeIcon icon={faArrowUp} className="arrow-icon" />
           </button>
-          <button className="github-button">Send a message</button>
+          <button className="github-button">
+            <FontAwesomeIcon icon={faPaperPlane} className="github-icon" />
+            Send a message
+          </button>
         </div>
-        <div className="portfolio-button-container">
+
+        <Link to="/portfolio" className="portfolio-button-container">
           <p>portfolio</p>
           <span>
             <FontAwesomeIcon
               icon={faAngleDoubleRight}
               className="portfolio-button"
-            />{" "}
+            />
           </span>
-        </div>
+        </Link>
       </div>
 
       <img src={require("../images/mac.png")} alt="" className="hero-image" />
