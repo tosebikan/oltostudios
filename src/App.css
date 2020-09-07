@@ -1,10 +1,18 @@
 .App {
-  text-align: center;
-  padding: 1rem;
+  /* text-align: center; */
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button:focus {
+  outline: 0;
 }
 
 .App-header {
@@ -12,26 +20,38 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+  position: absolute;
+  width: 90%;
+  z-index: 2;
 }
 
 .brand {
   color: #2a0848;
   font-weight: bold;
+  margin-left: 10px;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.brand:hover {
+  transform: translateY(-2px);
 }
 
 .header-icon {
   color: #f5c723;
   font-size: 1.2rem;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .header-icon:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .header-button {
-  margin-left: 5px;
+  margin-left: 10px;
   border: 0;
   background: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -41,14 +61,16 @@ a {
 
 .header-button:hover {
   cursor: pointer;
+  color: #2a0848;
 }
 
 @media (min-width: 1000px) {
-  .App {
-    padding: 1rem 3rem;
+  .App-header {
+    width: 95%;
   }
   .brand {
     font-size: 21px;
+    margin-left: 30px;
   }
   .header-icon {
     font-size: 21px;
@@ -57,5 +79,51 @@ a {
   .header-button {
     font-size: 25px;
     margin-left: 20px;
+  }
+}
+
+/* side bar */
+
+.sidebar {
+  background-color: #1f2632;
+  color: #fff;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+  width: 30%;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform: translateX(100%);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar ul {
+  padding-left: 30px;
+}
+
+.sidebar li {
+  margin: 2rem 0;
+  text-align: left;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.sidebar li:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.sidebar li:first-child {
+  margin-top: 10vh;
+}
+
+.link-icon {
+  margin-right: 10px;
+  color: #dcd4f0;
+}
+
+@media (min-width: 1000px) {
+  .sidebar {
+    width: 15%;
   }
 }
