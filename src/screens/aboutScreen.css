@@ -4,8 +4,8 @@
 
 .hero-text {
   color: #2a0848;
-  line-height: 1rem;
-  padding-top: 10vh;
+  /* line-height: 1rem; */
+  padding-top: 5vh;
   margin-left: 20px;
 }
 
@@ -89,7 +89,7 @@ span {
 }
 
 .hero-image {
-  height: 400px;
+  height: 350px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -109,6 +109,24 @@ span {
   }
 }
 
+@media (max-width: 400px) {
+  .hero-image {
+    height: 300px;
+  }
+  .hero-text {
+    max-width: 80%;
+    padding-top: 0;
+  }
+}
+@media (max-width: 350px) {
+  .hero-image {
+    height: 200px;
+  }
+  .hero-text {
+    max-width: 90%;
+    padding-top: 0;
+  }
+}
 @media (min-width: 1000px) {
   .about-hero {
     display: flex;
@@ -133,6 +151,7 @@ span {
   .hero-text {
     padding-top: 30vh;
     margin-left: 50px;
+    line-height: 1rem;
   }
 
   .hero-text h1 {
