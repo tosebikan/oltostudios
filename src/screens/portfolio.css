@@ -1,0 +1,66 @@
+.portfolio-hero {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.portfolio-hero h1 {
+  font-size: 21px;
+}
+
+.portfolio-hero p {
+  font-size: 16px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tablist-container {
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tablist {
+  margin: 10px;
+}
+
+.tablist-button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #dcd4f0;
+  color: #321c36;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.tablist-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(220, 212, 240, 1);
+}
+
+.active {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #321c36;
+  color: #dcd4f0;
+  box-shadow: 0 10px 20px rgba(50, 28, 54, 0.5);
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.tab-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1000px) {
+  .about-hero h1 {
+    font-size: 2em;
+  }
+  .about-hero p {
+    font-size: 1em;
+  }
+}
