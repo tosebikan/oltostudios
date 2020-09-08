@@ -131,10 +131,11 @@ span {
   .about-hero {
     display: flex;
     flex-direction: row;
+    padding-top: 5vh;
   }
 
   span {
-    transform: translateX(-6vw);
+    transform: translateX(-5vw);
     transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
@@ -143,7 +144,7 @@ span {
   }
 
   .hero-image {
-    height: 500px;
+    height: 600px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -151,14 +152,14 @@ span {
   .hero-text {
     padding-top: 30vh;
     margin-left: 50px;
-    line-height: 1rem;
+    line-height: 1.2rem;
   }
 
   .hero-text h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .hero-text p {
-    font-size: 21px;
+    font-size: 35px;
   }
 }
