@@ -23,11 +23,12 @@
 }
 
 .tablist {
-  margin: 10px;
+  margin: 5px;
 }
 
 .tablist-button {
   padding: 8px 20px;
+  z-index: 4;
   border: none;
   border-radius: 20px;
   background-color: #dcd4f0;
@@ -42,6 +43,7 @@
 
 .active {
   padding: 8px 20px;
+  z-index: 5;
   border: none;
   border-radius: 20px;
   background-color: #321c36;
@@ -52,6 +54,7 @@
 
 .tab-gallery {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -62,5 +65,10 @@
   }
   .about-hero p {
     font-size: 1em;
+  }
+  .tab-gallery {
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
   }
 }
