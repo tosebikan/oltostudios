@@ -16,10 +16,8 @@ function Card() {
         className="card-image2"
       />
       <div className="card-tech">
-        <p>Full-Stack</p>
-        <p>Front-End</p>
-        <p>Back-End</p>
         <p>React.js</p>
+        <p>... see more</p>
       </div>
     </div>
   );
