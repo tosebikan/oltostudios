@@ -23,7 +23,7 @@ button:focus {
   padding: 1rem;
   position: absolute;
   width: 90%;
-  z-index: 2;
+  z-index: 101;
 }
 
 .brand {
@@ -85,13 +85,13 @@ button:focus {
 /* side bar */
 
 .sidebar {
-  background-color: #1f2632;
+  background-color: #050654;
   color: #fff;
   position: fixed;
   right: 0;
   height: 100%;
-  z-index: 1;
-  width: 30%;
+  z-index: 100;
+  width: 35%;
   transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
   transform: translateX(100%);
 }
@@ -100,19 +100,36 @@ button:focus {
   transform: translateX(0);
 }
 
+.sidebar.open .sidebar__profile {
+  transform: translateX(0);
+}
+
+.sidebar.open .sidebar li {
+  transform: translateX(0);
+}
+
 .sidebar ul {
-  padding-left: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar li {
-  margin: 2rem 0;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 20px;
+  margin: 1.5rem 0.5rem;
+  border-radius: 10px;
   text-align: left;
   transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+
 .sidebar li:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  background-color: #3a2964;
+  border-radius: 10px;
 }
+
 .sidebar li:first-child {
   margin-top: 10vh;
 }
@@ -120,10 +137,76 @@ button:focus {
 .link-icon {
   margin-right: 10px;
   color: #dcd4f0;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.sidebar li:hover .link-icon {
+  color: #f5c723;
+  transform: scale(1.2);
+}
+
+.sidebar__hr {
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.sidebar__profile {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  transform: translateX(80%);
+  transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.sidebar__profile p {
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+@media (max-width: 400px) {
+  .sidebar__profile p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.profile__image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  object-fit: cover;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.profile__image:hover {
+  transform: scale(1.3);
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 40%;
+  }
+  .sidebar li {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+  .link-icon {
+    margin-right: 8px;
+  }
 }
 
 @media (min-width: 1000px) {
   .sidebar {
     width: 15%;
+  }
+
+  .profile__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
   }
 }
