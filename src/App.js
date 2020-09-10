@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -18,14 +18,32 @@ import ContactScreen from "./screens/ContactScreen";
 
 function App() {
   const [click, setClick] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const toggle = () => {
     setClick(!click);
     document.querySelector(".sidebar").classList.toggle("open");
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+
+  const handleScroll = () => {
+    const scrollTop = window.pageYOffset;
+
+    if (scrollTop > 50) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
+        <header
+          className={scrolled ? "App-header header__scrolled" : "App-header"}
+        >
           <div className="brand">
             <Link to="/">oltostudios</Link>
           </div>
