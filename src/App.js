@@ -5,13 +5,15 @@ import {
   faSun,
   faAddressCard,
   faAddressBook,
-  faBriefcase,
+  faMobile,
   faTimes,
-  faBars
+  faBars,
+  faGlobe
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 import AboutScreen from "./screens/AboutScreen";
 import PortfolioScreen from "./screens/PortfolioScreen";
+import MobilePortfolioScreen from "./screens/MobilePortfolioScreen";
 import ContactScreen from "./screens/ContactScreen";
 
 function App() {
@@ -48,7 +50,13 @@ function App() {
             </li>
             <li>
               <Link to="/portfolio" onClick={toggle}>
-                <FontAwesomeIcon icon={faBriefcase} className="link-icon" />
+                <FontAwesomeIcon icon={faGlobe} className="link-icon" />
+                portfolio
+              </Link>
+            </li>
+            <li>
+              <Link to="/mobile-portfolio" onClick={toggle}>
+                <FontAwesomeIcon icon={faMobile} className="link-icon" />
                 portfolio
               </Link>
             </li>
@@ -59,12 +67,22 @@ function App() {
               </Link>
             </li>
           </ul>
+          <hr className="sidebar__hr" />
+          <div className="sidebar__profile">
+            <img
+              src={require("./images/profile.jpg")}
+              alt=""
+              className="profile__image"
+            />
+            <p>Tosin Ola.</p>
+          </div>
         </aside>
 
         <main>
           <div>
             <Route path="/" component={AboutScreen} exact={true} />
             <Route path="/portfolio" component={PortfolioScreen} />
+            <Route path="/mobile-portfolio" component={MobilePortfolioScreen} />
             <Route path="/contact" component={ContactScreen} exact={true} />
           </div>
         </main>
