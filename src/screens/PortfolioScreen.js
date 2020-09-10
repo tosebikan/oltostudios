@@ -50,6 +50,7 @@ function PortfolioScreen() {
         </TabList>
 
         <TabPanel>
+          <h4>Showing All</h4>
           <div className="tab-gallery">
             {data.webProjects.map((web) => (
               <Card
@@ -61,9 +62,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>React.js</h4>
           <div className="tab-gallery">
             {react.map((react) => (
               <Card
+                key={react.id}
                 title={react.title}
                 tech={react.tech.slice(0, 4).join(", ")}
               />
@@ -71,9 +74,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>Front-End</h4>
           <div className="tab-gallery">
             {frontEnd.map((frontEnd) => (
               <Card
+                key={frontEnd.id}
                 title={frontEnd.title}
                 tech={frontEnd.tech.slice(0, 4).join(", ")}
               />
@@ -81,9 +86,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>Full-Stack</h4>
           <div className="tab-gallery">
             {fullStack.map((fullStack) => (
               <Card
+                key={fullStack.id}
                 title={fullStack.title}
                 tech={fullStack.tech.slice(0, 4).join(", ")}
               />
@@ -91,9 +98,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>Back-End</h4>
           <div className="tab-gallery">
             {backEnd.map((backEnd) => (
               <Card
+                key={backEnd.id}
                 title={backEnd.title}
                 tech={backEnd.tech.slice(0, 4).join(", ")}
               />
@@ -101,9 +110,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>Redux</h4>
           <div className="tab-gallery">
             {redux.map((redux) => (
               <Card
+                key={redux.id}
                 title={redux.title}
                 tech={redux.tech.slice(0, 4).join(", ")}
               />
@@ -111,9 +122,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>MongoDB</h4>
           <div className="tab-gallery">
             {mongoDB.map((mongoDB) => (
               <Card
+                key={mongoDB.id}
                 title={mongoDB.title}
                 tech={mongoDB.tech.slice(0, 4).join(", ")}
               />
@@ -121,9 +134,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>HTML5</h4>
           <div className="tab-gallery">
             {html5.map((html5) => (
               <Card
+                key={html5.id}
                 title={html5.title}
                 tech={html5.tech.slice(0, 4).join(", ")}
               />
@@ -131,9 +146,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>Bootstrap</h4>
           <div className="tab-gallery">
             {bootstrap.map((bootstrap) => (
               <Card
+                key={bootstrap.id}
                 title={bootstrap.title}
                 tech={bootstrap.tech.slice(0, 4).join(", ")}
               />
@@ -141,9 +158,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>UI/UX</h4>
           <div className="tab-gallery">
             {uiUx.map((uiUx) => (
               <Card
+                key={uiUx.id}
                 title={uiUx.title}
                 tech={uiUx.tech.slice(0, 4).join(", ")}
               />
@@ -151,9 +170,11 @@ function PortfolioScreen() {
           </div>
         </TabPanel>
         <TabPanel>
+          <h4>Firebase</h4>
           <div className="tab-gallery">
             {firebase.map((firebase) => (
               <Card
+                key={firebase.id}
                 title={firebase.title}
                 tech={firebase.tech.slice(0, 4).join(", ")}
               />
