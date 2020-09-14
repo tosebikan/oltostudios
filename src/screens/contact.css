@@ -1,0 +1,148 @@
+.contact-hero {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.contact-hero h1 {
+  font-size: 21px;
+  color: #2a0848;
+}
+
+.contact-hero p {
+  font-size: 16px;
+  width: 90%;
+  margin: 0 auto;
+  color: #2a0848;
+}
+
+.contact__group {
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.contact__group img {
+  width: 290px;
+  height: 260px;
+  border-radius: 20px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact__form input {
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.contact__form textarea {
+  height: 150px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* .contact__button {
+  width: 100px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+} */
+.contact__button {
+  width: 100px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #dcd4f0;
+  color: #321c36;
+  box-shadow: 0 10px 20px rgba(220, 212, 240, 1);
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.contact__button:hover {
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .contact__group {
+    display: flex;
+    flex: row;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .contact__formContainer {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .contact__group img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}
+
+/* social links */
+
+.social__links {
+  margin: 20px;
+}
+
+.github__contact {
+  padding: 8px 20px;
+  border: 0;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: #dedede;
+  color: #4a4a4a;
+  margin: 0 10px;
+  box-shadow: 0 10px 20px rgba(74, 74, 74, 0.25);
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.github__contact:hover {
+  transform: translateY(-2px);
+  color: #000;
+}
+.linkedin__contact {
+  padding: 8px 20px;
+  border: 0;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: #e7f1f7;
+  color: #0077b5;
+  margin: 0 10px;
+  box-shadow: 0 10px 20px rgba(0, 119, 181, 0.25);
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.linkedin__contact:hover {
+  transform: translateY(-2px);
+  color: #000;
+}
+
+.instagram__contact {
+  padding: 8px 20px;
+  border: 0;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: #f2ebf7;
+  color: #8238b5;
+  margin: 0 10px;
+  box-shadow: 0 10px 20px rgba(130, 56, 181, 0.25);
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.instagram__contact:hover {
+  transform: translateY(-2px);
+  color: #000;
+}
