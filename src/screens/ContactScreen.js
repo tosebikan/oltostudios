@@ -1,9 +1,47 @@
 import React from "react";
+import "./contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 function ContactScreen() {
   return (
-    <div className="about-hero">
-      <h1> Contact Screen</h1>
+    <div className="contact-hero">
+      <h1>Contact</h1>
+      <p>
+        Looking to get in touch, talk about a project collaboration or just to
+        say hi ?, fill the form below, or send an email to{" "}
+        <span>oltostudios@gmail.com </span>& i’ll get back to you!
+      </p>
+      <div className="contact__group">
+        <img src={require("../images/web2img.png")} alt="" />
+        <div className="contact__formContainer">
+          <form className="contact__form">
+            <h4>Get in Touch</h4>
+            <input type="text" name="name" placeholder="name" />
+            <input type="email" name="email" placeholder="email@example.com" />
+            <textarea type="text" name="message" placeholder="message" />
+            <button className="contact__button">Send</button>
+          </form>
+        </div>
+      </div>
+      <div className="social__links">
+        <button className="github__contact">
+          <FontAwesomeIcon icon={faGithub} className="github-icon" />
+          Github{" "}
+        </button>
+        <button className="linkedin__contact">
+          <FontAwesomeIcon icon={faLinkedin} className="github-icon" />
+          Github{" "}
+        </button>
+        <button className="instagram__contact">
+          <FontAwesomeIcon icon={faInstagram} className="github-icon" />
+          Instagram{" "}
+        </button>
+      </div>
     </div>
   );
 }
