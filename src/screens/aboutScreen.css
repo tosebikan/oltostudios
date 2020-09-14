@@ -1,5 +1,6 @@
 .about-hero {
   padding-top: 10vh;
+  background-color: #fff;
 }
 
 .hero-text {
@@ -90,6 +91,7 @@ span {
 
 .hero-image {
   height: 350px;
+  background-color: #fff;
   position: absolute;
   right: 0;
   bottom: 0;
