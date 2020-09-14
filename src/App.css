@@ -1,5 +1,15 @@
 .App {
   /* text-align: center; */
+  background-color: #fff;
+}
+
+.dark__mode {
+  background-color: inherit;
+  border: 0;
+}
+
+.dark-mode {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 a {
@@ -31,6 +41,9 @@ button:focus {
   backdrop-filter: blur(20px);
   padding-top: 15px;
   padding-bottom: 12px;
+}
+.header__scrolled .brand {
+  color: #fff;
 }
 
 .brand {
@@ -150,7 +163,7 @@ button:focus {
 }
 
 .sidebar li:hover .link-icon {
-  color: #f5c723;
+  color: #9b72ff;
   transform: scale(1.2);
 }
 
