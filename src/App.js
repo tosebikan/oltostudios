@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSun,
+  faMoon,
   faAddressCard,
   faAddressBook,
   faMobile,
@@ -19,9 +20,16 @@ import ContactScreen from "./screens/ContactScreen";
 function App() {
   const [click, setClick] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
   const toggle = () => {
     setClick(!click);
     document.querySelector(".sidebar").classList.toggle("open");
+  };
+
+  const toggleDark = () => {
+    document.documentElement.classList.toggle("dark-mode");
+    setDarkMode(!darkMode);
   };
 
   useEffect(() => {
@@ -48,7 +56,14 @@ function App() {
             <Link to="/">oltostudios</Link>
           </div>
           <div className="header-links">
-            <FontAwesomeIcon icon={faSun} className="header-icon" />
+            <button onClick={toggleDark} className="dark__mode">
+              {darkMode ? (
+                <FontAwesomeIcon icon={faMoon} className="header-icon" />
+              ) : (
+                <FontAwesomeIcon icon={faSun} className="header-icon" />
+              )}
+            </button>
+
             <button id="header-btn" className="header-button" onClick={toggle}>
               {click ? (
                 <FontAwesomeIcon icon={faTimes} style={{ color: "#fff" }} />
