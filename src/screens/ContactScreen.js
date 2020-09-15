@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faInstagram,
-  faLinkedin
+  faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 
 function ContactScreen() {
@@ -36,8 +36,8 @@ function ContactScreen() {
           Github{" "}
         </button>
         <button className="linkedin__contact">
-          <FontAwesomeIcon icon={faLinkedin} className="github-icon" />
-          Github{" "}
+          <FontAwesomeIcon icon={faLinkedinIn} className="github-icon" />
+          Linkedin{" "}
         </button>
         <button className="instagram__contact">
           <FontAwesomeIcon icon={faInstagram} className="github-icon" />
