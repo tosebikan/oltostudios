@@ -38,8 +38,9 @@ function AboutScreen() {
           </span>
         </Link>
       </div>
-
-      <img src={require("../images/mac.png")} alt="" className="hero-image" />
+      <div className="hero-image__container">
+        <img src={require("../images/mac.png")} alt="" className="hero-image" />
+      </div>
     </div>
   );
 }
