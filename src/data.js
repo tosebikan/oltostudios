@@ -23,28 +23,33 @@ const data = {
     { tech: "Mongodb" },
     { tech: "UI/UX" }
   ],
-  webProjects: [
+  projects: [
     {
       id: "1",
       title: "Richhomes",
+      logo: require("./images/logos/axtella.png"),
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "web"
     },
     {
       id: "2",
       title: "Axtella",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["Gatsby", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "web"
     },
     {
       id: "3",
       title: "Carparts",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
         "React",
@@ -57,11 +62,13 @@ const data = {
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "web"
     },
     {
       id: "4",
       title: "Todos",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
         "React",
@@ -73,11 +80,13 @@ const data = {
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "web"
     },
     {
       id: "5",
       title: "Pharma",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
         "React",
@@ -89,14 +98,14 @@ const data = {
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://pharma.com"
-    }
-  ],
+      url: "https://pharma.com",
+      type: "web"
+    },
 
-  mobileProjects: [
     {
-      id: "1",
+      id: "6",
       title: "Spineup",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
         "React-Native",
@@ -108,38 +117,46 @@ const data = {
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "mobile"
     },
     {
-      id: "2",
+      id: "7",
       title: "Enroute",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "mobile"
     },
     {
-      id: "3",
+      id: "8",
       title: "Newsify",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX", "Back-End"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "mobile"
     },
     {
-      id: "4",
+      id: "9",
       title: "Movees",
+      logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com"
+      url: "https://richhomesgh.com",
+      type: "mobile"
     },
     {
-      id: "5",
+      id: "10",
       title: "Chatter",
+      logo: 'require("./images/logos/axtella.png")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
         "React-Native",
@@ -152,7 +169,8 @@ const data = {
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://pharma.com"
+      url: "https://pharma.com",
+      type: "mobile"
     }
   ]
 };
