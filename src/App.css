@@ -10,6 +10,13 @@
 
 .dark-mode {
   filter: invert(1) hue-rotate(180deg);
+  /* filter: contrast(90%) invert(90%) hue-rotate(180deg) !important;
+  -ms-filter: invert(100%);
+  -webkit-filter: contrast(90%) invert(90%) hue-rotate(180deg) !important; */
+}
+
+.dark-mode img {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 a {
@@ -87,7 +94,7 @@ button:focus {
 
 @media (min-width: 1000px) {
   .App-header {
-    width: 95%;
+    width: 100%;
   }
   .brand {
     font-size: 21px;
@@ -100,7 +107,7 @@ button:focus {
   .header-button {
     font-size: 25px;
     margin-left: 20px;
-    margin-right: 0;
+    margin-right: 40px;
   }
 }
 
