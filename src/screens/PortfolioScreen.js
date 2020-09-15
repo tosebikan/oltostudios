@@ -7,20 +7,18 @@ import data from "../data";
 
 function PortfolioScreen() {
   const [active, setActive] = useState("Show-All");
-  const react = data.webProjects.filter((x) => x.tech.includes("React"));
-  const frontEnd = data.webProjects.filter((x) => x.tech.includes("Front-End"));
-  const fullStack = data.webProjects.filter((x) =>
-    x.tech.includes("Full-Stack")
-  );
-  const backEnd = data.webProjects.filter((x) => x.tech.includes("Back-End"));
-  const redux = data.webProjects.filter((x) => x.tech.includes("Redux"));
-  const mongoDB = data.webProjects.filter((x) => x.tech.includes("MongoDB"));
-  const html5 = data.webProjects.filter((x) => x.tech.includes("HTML5"));
-  const bootstrap = data.webProjects.filter((x) =>
-    x.tech.includes("Bootstrap")
-  );
-  const uiUx = data.webProjects.filter((x) => x.tech.includes("UI/UX"));
-  const firebase = data.webProjects.filter((x) => x.tech.includes("Firebase"));
+  const webProjects = data.projects.filter((x) => x.type === "web");
+
+  const react = webProjects.filter((x) => x.tech.includes("React"));
+  const frontEnd = webProjects.filter((x) => x.tech.includes("Front-End"));
+  const fullStack = webProjects.filter((x) => x.tech.includes("Full-Stack"));
+  const backEnd = webProjects.filter((x) => x.tech.includes("Back-End"));
+  const redux = webProjects.filter((x) => x.tech.includes("Redux"));
+  const mongoDB = webProjects.filter((x) => x.tech.includes("MongoDB"));
+  const html5 = webProjects.filter((x) => x.tech.includes("HTML5"));
+  const bootstrap = webProjects.filter((x) => x.tech.includes("Bootstrap"));
+  const uiUx = webProjects.filter((x) => x.tech.includes("UI/UX"));
+  const firebase = webProjects.filter((x) => x.tech.includes("Firebase"));
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -53,7 +51,7 @@ function PortfolioScreen() {
         <TabPanel>
           <h4>Showing All</h4>
           <div className="tab-gallery">
-            {data.webProjects.map((web) => (
+            {webProjects.map((web) => (
               <Card
                 link={`portfolio-details${web.id}`}
                 key={web.id}
