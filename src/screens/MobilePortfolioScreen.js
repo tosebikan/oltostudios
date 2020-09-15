@@ -6,25 +6,18 @@ import data from "../data";
 
 function MobilePortfolioScreen() {
   const [active, setActive] = useState("Show-All");
-  const reactNative = data.mobileProjects.filter((x) =>
+  const mobileProjects = data.projects.filter((x) => x.type === "mobile");
+  const reactNative = mobileProjects.filter((x) =>
     x.tech.includes("React-Native")
   );
-  const firebase = data.mobileProjects.filter((x) =>
-    x.tech.includes("Firebase")
-  );
-  const frontEnd = data.mobileProjects.filter((x) =>
-    x.tech.includes("Front-End")
-  );
+  const firebase = mobileProjects.filter((x) => x.tech.includes("Firebase"));
+  const frontEnd = mobileProjects.filter((x) => x.tech.includes("Front-End"));
 
-  const fullStack = data.mobileProjects.filter((x) =>
-    x.tech.includes("Full-Stack")
-  );
-  const backEnd = data.mobileProjects.filter((x) =>
-    x.tech.includes("Back-End")
-  );
-  const redux = data.mobileProjects.filter((x) => x.tech.includes("Redux"));
-  const mongoDB = data.mobileProjects.filter((x) => x.tech.includes("MongoDB"));
-  const uiUx = data.mobileProjects.filter((x) => x.tech.includes("UI/UX"));
+  const fullStack = mobileProjects.filter((x) => x.tech.includes("Full-Stack"));
+  const backEnd = mobileProjects.filter((x) => x.tech.includes("Back-End"));
+  const redux = mobileProjects.filter((x) => x.tech.includes("Redux"));
+  const mongoDB = mobileProjects.filter((x) => x.tech.includes("MongoDB"));
+  const uiUx = mobileProjects.filter((x) => x.tech.includes("UI/UX"));
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -57,7 +50,7 @@ function MobilePortfolioScreen() {
 
         <TabPanel>
           <div className="tab-gallery">
-            {data.mobileProjects.map((mobile) => (
+            {mobileProjects.map((mobile) => (
               <Card
                 link={`portfolio-details${mobile.id}`}
                 key={mobile.id}
