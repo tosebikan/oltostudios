@@ -97,6 +97,14 @@
 .social__links {
   margin: 20px;
 }
+@media (min-width: 1000px) {
+  .social__links {
+    margin: 40px;
+  }
+}
+.social__links h4 {
+  color: #2a0848;
+}
 
 .github__contact {
   padding: 8px 20px;
