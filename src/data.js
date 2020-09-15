@@ -92,12 +92,20 @@ const data = {
       url: "https://pharma.com"
     }
   ],
+
   mobileProjects: [
     {
       id: "1",
       title: "Spineup",
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: ["React", "Front-End", "UI/UX"],
+      tech: [
+        "React-Native",
+        "Firebase",
+        "Front-End",
+        "Back-End",
+        "Full-Stack",
+        "UI/UX"
+      ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com"
@@ -106,7 +114,7 @@ const data = {
       id: "2",
       title: "Enroute",
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: ["Gatsby", "Front-End", "UI/UX"],
+      tech: ["React-Native", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com"
@@ -115,15 +123,7 @@ const data = {
       id: "3",
       title: "Newsify",
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: [
-        "React",
-        "Redux",
-        "MongoDB",
-        "Full-Stack",
-        "Front-End",
-        "UI/UX",
-        "Back-End"
-      ],
+      tech: ["React-Native", "Front-End", "UI/UX", "Back-End"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com"
@@ -132,14 +132,7 @@ const data = {
       id: "4",
       title: "Movees",
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: [
-        "React",
-        "Full-Stack",
-        "Front-End",
-        "UI/UX",
-        "MongoDB",
-        "Back-End"
-      ],
+      tech: ["React-Native", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com"
@@ -149,12 +142,13 @@ const data = {
       title: "Chatter",
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
-        "React",
+        "React-Native",
         "Full-Stack",
         "Front-End",
         "UI/UX",
         "Firebase",
-        "Back-End"
+        "Back-End",
+        "Mongodb"
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
