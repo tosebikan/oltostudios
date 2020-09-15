@@ -27,28 +27,34 @@ const data = {
     {
       id: "1",
       title: "Richhomes",
+
+      info: "Real estate web app built on React",
       logo: require("./images/logos/axtella.png"),
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: ["React", "Front-End", "UI/UX"],
+      tech: ["React", "Front-End", "UI/UX", "HTML5 - semantic"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://github.com/tosebikan/richhomesgh",
       type: "web"
     },
     {
       id: "2",
       title: "Axtella",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["Gatsby", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
       type: "web"
     },
     {
       id: "3",
       title: "Carparts",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
@@ -63,6 +69,7 @@ const data = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
       type: "web"
     },
     {
@@ -81,11 +88,13 @@ const data = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
       type: "web"
     },
     {
       id: "5",
       title: "Pharma",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
@@ -99,12 +108,14 @@ const data = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
       type: "web"
     },
 
     {
       id: "6",
       title: "Spineup",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
@@ -118,44 +129,52 @@ const data = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
       type: "mobile"
     },
     {
       id: "7",
       title: "Enroute",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
       type: "mobile"
     },
     {
       id: "8",
       title: "Newsify",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX", "Back-End"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
       type: "mobile"
     },
     {
       id: "9",
       title: "Movees",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
       type: "mobile"
     },
     {
       id: "10",
       title: "Chatter",
+      info: "Real estate web app built on React",
       logo: 'require("./images/logos/axtella.png")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
@@ -170,6 +189,7 @@ const data = {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
       type: "mobile"
     }
   ]
