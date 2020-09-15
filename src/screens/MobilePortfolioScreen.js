@@ -6,20 +6,25 @@ import data from "../data";
 
 function MobilePortfolioScreen() {
   const [active, setActive] = useState("Show-All");
-  const react = data.webProjects.filter((x) => x.tech.includes("React"));
-  const frontEnd = data.webProjects.filter((x) => x.tech.includes("Front-End"));
-  const fullStack = data.webProjects.filter((x) =>
+  const reactNative = data.mobileProjects.filter((x) =>
+    x.tech.includes("React-Native")
+  );
+  const firebase = data.mobileProjects.filter((x) =>
+    x.tech.includes("Firebase")
+  );
+  const frontEnd = data.mobileProjects.filter((x) =>
+    x.tech.includes("Front-End")
+  );
+
+  const fullStack = data.mobileProjects.filter((x) =>
     x.tech.includes("Full-Stack")
   );
-  const backEnd = data.webProjects.filter((x) => x.tech.includes("Back-End"));
-  const redux = data.webProjects.filter((x) => x.tech.includes("Redux"));
-  const mongoDB = data.webProjects.filter((x) => x.tech.includes("MongoDB"));
-  const html5 = data.webProjects.filter((x) => x.tech.includes("HTML5"));
-  const bootstrap = data.webProjects.filter((x) =>
-    x.tech.includes("Bootstrap")
+  const backEnd = data.mobileProjects.filter((x) =>
+    x.tech.includes("Back-End")
   );
-  const uiUx = data.webProjects.filter((x) => x.tech.includes("UI/UX"));
-  const firebase = data.webProjects.filter((x) => x.tech.includes("Firebase"));
+  const redux = data.mobileProjects.filter((x) => x.tech.includes("Redux"));
+  const mongoDB = data.mobileProjects.filter((x) => x.tech.includes("MongoDB"));
+  const uiUx = data.mobileProjects.filter((x) => x.tech.includes("UI/UX"));
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -29,8 +34,9 @@ function MobilePortfolioScreen() {
     <div className="portfolio-hero">
       <h1>Mobile App Developer Portfolio</h1>
       <p>
-        Checkout my latest web development projects, from UI/UX design with
-        sketch to coding with React-Native, Redux,Firebase, Node.js, Mongodb.
+        Checkout my latest mobile app development projects, from UI/UX design
+        with sketch to coding with React-Native, Redux,Firebase, Node.js,
+        Mongodb.
       </p>
       <Tabs>
         <TabList className="tablist-container">
@@ -51,22 +57,36 @@ function MobilePortfolioScreen() {
 
         <TabPanel>
           <div className="tab-gallery">
-            {data.webProjects.map((web) => (
+            {data.mobileProjects.map((mobile) => (
               <Card
-                key={web.id}
-                title={web.title}
-                tech={web.tech.slice(0, 4).join(", ")}
+                link={`portfolio-details${mobile.id}`}
+                key={mobile.id}
+                title={mobile.title}
+                tech={mobile.tech.slice(0, 4).join(", ")}
               />
             ))}
           </div>
         </TabPanel>
         <TabPanel>
           <div className="tab-gallery">
-            {react.map((react) => (
+            {reactNative.map((rn) => (
               <Card
-                key={react.id}
-                title={react.title}
-                tech={react.tech.slice(0, 4).join(", ")}
+                link={`portfolio-details${rn.id}`}
+                key={rn.id}
+                title={rn.title}
+                tech={rn.tech.slice(0, 4).join(", ")}
+              />
+            ))}
+          </div>
+        </TabPanel>
+        <TabPanel>
+          <div className="tab-gallery">
+            {firebase.map((fb) => (
+              <Card
+                link={`portfolio-details${fb.id}`}
+                key={fb.id}
+                title={fb.title}
+                tech={fb.tech.slice(0, 4).join(", ")}
               />
             ))}
           </div>
@@ -75,6 +95,7 @@ function MobilePortfolioScreen() {
           <div className="tab-gallery">
             {frontEnd.map((frontEnd) => (
               <Card
+                link={`portfolio-details${frontEnd.id}`}
                 key={frontEnd.id}
                 title={frontEnd.title}
                 tech={frontEnd.tech.slice(0, 4).join(", ")}
@@ -86,6 +107,7 @@ function MobilePortfolioScreen() {
           <div className="tab-gallery">
             {fullStack.map((fullStack) => (
               <Card
+                link={`portfolio-details${fullStack.id}`}
                 key={fullStack.id}
                 title={fullStack.title}
                 tech={fullStack.tech.slice(0, 4).join(", ")}
@@ -97,6 +119,7 @@ function MobilePortfolioScreen() {
           <div className="tab-gallery">
             {backEnd.map((backEnd) => (
               <Card
+                link={`portfolio-details${backEnd.id}`}
                 key={backEnd.id}
                 title={backEnd.title}
                 tech={backEnd.tech.slice(0, 4).join(", ")}
@@ -108,6 +131,7 @@ function MobilePortfolioScreen() {
           <div className="tab-gallery">
             {redux.map((redux) => (
               <Card
+                key={redux.id}
                 card={redux.id}
                 title={redux.title}
                 tech={redux.tech.slice(0, 4).join(", ")}
@@ -126,24 +150,14 @@ function MobilePortfolioScreen() {
             ))}
           </div>
         </TabPanel>
+
         <TabPanel>
           <div className="tab-gallery">
-            {html5.map((html5) => (
+            {uiUx.map((uiux) => (
               <Card
-                key={html5.id}
-                title={html5.title}
-                tech={html5.tech.slice(0, 4).join(", ")}
-              />
-            ))}
-          </div>
-        </TabPanel>
-        <TabPanel>
-          <div className="tab-gallery">
-            {bootstrap.map((bootstrap) => (
-              <Card
-                key={bootstrap.id}
-                title={bootstrap.title}
-                tech={bootstrap.tech.slice(0, 4).join(", ")}
+                key={uiux.id}
+                title={uiux.title}
+                tech={uiux.tech.slice(0, 4).join(", ")}
               />
             ))}
           </div>
