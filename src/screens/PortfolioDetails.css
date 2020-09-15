@@ -1,0 +1,91 @@
+.portfolio-details__hero {
+  padding: 20px;
+  padding-top: 10vh;
+  text-align: center;
+}
+
+.portfolio-details__info {
+  text-align: center;
+}
+
+.portfolio-details__image-container {
+  margin-bottom: 20px;
+}
+
+.portfolio-details__image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+@media (min-width: 1000px) {
+  .portfolio-details__image-container {
+    width: 80vw;
+    height: 400px;
+  }
+}
+
+/* profolio details */
+.portfolio-details__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__image {
+  height: 50px;
+  width: 100px;
+}
+
+.portfolio-details__info h4 {
+  margin-bottom: 5px;
+}
+
+.property-details__list {
+  list-style-type: disc;
+}
+
+.tech_sheet {
+  text-align: left;
+  width: 150px;
+  margin: 0 auto;
+}
+.tech_sheet p {
+  text-align: left;
+}
+
+@media (min-width: 1000px) {
+  .portfolio-details__image {
+    width: 700px;
+    height: 400px;
+  }
+
+  .portfolio-details__group {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .logo__image {
+    text-align: left;
+    height: 75px;
+    width: 150px;
+  }
+
+  .portfolio-details__info {
+    text-align: left;
+  }
+
+  .portfolio-details__info p {
+    width: 80%;
+  }
+  .property-details__list {
+    padding-left: 20px;
+  }
+  .tech_sheet {
+    margin: 0;
+  }
+  .tech_sheet p {
+  }
+}
