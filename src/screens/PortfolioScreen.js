@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./portfolio.css";
 import Card from "../components/Card";
@@ -54,6 +55,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {data.webProjects.map((web) => (
               <Card
+                link={`portfolio-details${web.id}`}
                 key={web.id}
                 title={web.title}
                 tech={web.tech.slice(0, 4).join(", ")}
@@ -66,6 +68,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {react.map((react) => (
               <Card
+                link={`portfolio-details${react.id}`}
                 key={react.id}
                 title={react.title}
                 tech={react.tech.slice(0, 4).join(", ")}
@@ -78,6 +81,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {frontEnd.map((frontEnd) => (
               <Card
+                link={`portfolio-details${frontEnd.id}`}
                 key={frontEnd.id}
                 title={frontEnd.title}
                 tech={frontEnd.tech.slice(0, 4).join(", ")}
@@ -90,6 +94,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {fullStack.map((fullStack) => (
               <Card
+                link={`portfolio-details${fullStack.id}`}
                 key={fullStack.id}
                 title={fullStack.title}
                 tech={fullStack.tech.slice(0, 4).join(", ")}
@@ -102,6 +107,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {backEnd.map((backEnd) => (
               <Card
+                link={`portfolio-details${backEnd.id}`}
                 key={backEnd.id}
                 title={backEnd.title}
                 tech={backEnd.tech.slice(0, 4).join(", ")}
@@ -114,6 +120,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {redux.map((redux) => (
               <Card
+                link={`portfolio-details${redux.id}`}
                 key={redux.id}
                 title={redux.title}
                 tech={redux.tech.slice(0, 4).join(", ")}
@@ -126,6 +133,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {mongoDB.map((mongoDB) => (
               <Card
+                link={`portfolio-details${mongoDB.id}`}
                 key={mongoDB.id}
                 title={mongoDB.title}
                 tech={mongoDB.tech.slice(0, 4).join(", ")}
@@ -138,6 +146,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {html5.map((html5) => (
               <Card
+                link={`portfolio-details${html5.id}`}
                 key={html5.id}
                 title={html5.title}
                 tech={html5.tech.slice(0, 4).join(", ")}
@@ -150,6 +159,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {bootstrap.map((bootstrap) => (
               <Card
+                link={`portfolio-details${bootstrap.id}`}
                 key={bootstrap.id}
                 title={bootstrap.title}
                 tech={bootstrap.tech.slice(0, 4).join(", ")}
@@ -162,6 +172,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {uiUx.map((uiUx) => (
               <Card
+                link={`portfolio-details${uiUx.id}`}
                 key={uiUx.id}
                 title={uiUx.title}
                 tech={uiUx.tech.slice(0, 4).join(", ")}
@@ -174,6 +185,7 @@ function PortfolioScreen() {
           <div className="tab-gallery">
             {firebase.map((firebase) => (
               <Card
+                link={`portfolio-details${firebase.id}`}
                 key={firebase.id}
                 title={firebase.title}
                 tech={firebase.tech.slice(0, 4).join(", ")}
