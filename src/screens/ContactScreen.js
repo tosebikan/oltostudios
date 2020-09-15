@@ -28,7 +28,9 @@ function ContactScreen() {
           </form>
         </div>
       </div>
+
       <div className="social__links">
+        <h4>Social links</h4>
         <button className="github__contact">
           <FontAwesomeIcon icon={faGithub} className="github-icon" />
           Github{" "}
