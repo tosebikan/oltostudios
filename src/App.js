@@ -15,6 +15,7 @@ import "./App.css";
 import AboutScreen from "./screens/AboutScreen";
 import PortfolioScreen from "./screens/PortfolioScreen";
 import MobilePortfolioScreen from "./screens/MobilePortfolioScreen";
+import PortfolioDetailsScreen from "./screens/PortfolioDetailsScreen";
 import ContactScreen from "./screens/ContactScreen";
 
 function App() {
@@ -116,6 +117,10 @@ function App() {
             <Route path="/" component={AboutScreen} exact={true} />
             <Route path="/portfolio" component={PortfolioScreen} />
             <Route path="/mobile-portfolio" component={MobilePortfolioScreen} />
+            <Route
+              path="/portfolio-details:id"
+              component={PortfolioDetailsScreen}
+            />
             <Route path="/contact" component={ContactScreen} exact={true} />
           </div>
         </main>
