@@ -59,7 +59,7 @@ function App() {
           <div className="header-links">
             <button onClick={toggleDark} className="dark__mode">
               {darkMode ? (
-                <FontAwesomeIcon icon={faMoon} className="header-icon" />
+                <FontAwesomeIcon icon={faMoon} className="moon header-icon" />
               ) : (
                 <FontAwesomeIcon icon={faSun} className="header-icon" />
               )}
