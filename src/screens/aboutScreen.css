@@ -1,6 +1,7 @@
 .about-hero {
   padding-top: 10vh;
   background-color: #fff;
+  height: 90vh;
 }
 
 .hero-text {
@@ -89,7 +90,7 @@ span {
 }
 
 .hero-image__container {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .hero-image {
@@ -129,13 +130,20 @@ span {
   .hero-text {
     max-width: 95%;
     padding-top: 0;
+    font-size: 14px;
+  }
+  .hero-text h1,
+  p {
+    width: 80%;
   }
 }
+
 @media (min-width: 1000px) {
   .about-hero {
     display: flex;
     flex-direction: row;
     padding-top: 5vh;
+    height: 95vh;
   }
 
   span {
@@ -156,11 +164,26 @@ span {
   .hero-text {
     padding-top: 30vh;
     margin-left: 50px;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
+    font-size: 21px;
   }
 
   .hero-text h1 {
+    transform: translateX(-100%);
+    animation-name: heroTextSlide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
     font-size: 50px;
+  }
+
+  @keyframes heroTextSlide {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
   }
 
   .hero-text p {
