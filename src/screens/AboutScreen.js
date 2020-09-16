@@ -17,15 +17,24 @@ function AboutScreen() {
         <p>A full-stack developer & UI | UX specialist.</p>
         <p>I design & develop immersive web & mobile applications. </p>
         <div>
-          <button className="github-button">
-            <FontAwesomeIcon icon={faGithub} className="github-icon" />
-            Github
-            <FontAwesomeIcon icon={faArrowUp} className="arrow-icon" />
-          </button>
-          <button className="github-button">
-            <FontAwesomeIcon icon={faPaperPlane} className="github-icon" />
-            Send a message
-          </button>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/tosebikan"
+          >
+            <button className="github-button">
+              <FontAwesomeIcon icon={faGithub} className="github-icon" />
+              Github
+              <FontAwesomeIcon icon={faArrowUp} className="arrow-icon" />
+            </button>
+          </a>
+
+          <Link to="contact">
+            <button className="github-button">
+              <FontAwesomeIcon icon={faPaperPlane} className="github-icon" />
+              Send a message
+            </button>{" "}
+          </Link>
         </div>
 
         <Link to="/portfolio" className="portfolio-button-container">
