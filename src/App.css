@@ -10,13 +10,20 @@
 
 .dark-mode {
   filter: invert(1) hue-rotate(180deg);
-  /* filter: contrast(90%) invert(90%) hue-rotate(180deg) !important;
-  -ms-filter: invert(100%);
-  -webkit-filter: contrast(90%) invert(90%) hue-rotate(180deg) !important; */
 }
 
 .dark-mode img {
   filter: invert(1) hue-rotate(180deg);
+}
+
+/* .dark-mode h1,
+p {
+  filter: invert(1) hue-rotate(180deg);
+  color: #fff;
+} */
+
+.moon {
+  color: #000;
 }
 
 a {
@@ -30,6 +37,10 @@ ul {
 
 button:focus {
   outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .App-header {
