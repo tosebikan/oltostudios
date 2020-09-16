@@ -95,7 +95,8 @@
 /* social links */
 
 .social__links {
-  margin: 20px;
+  margin-top: 20px;
+  padding-bottom: 40px;
 }
 @media (min-width: 1000px) {
   .social__links {
