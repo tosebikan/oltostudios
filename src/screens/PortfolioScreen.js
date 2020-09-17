@@ -61,6 +61,8 @@ function PortfolioScreen() {
                 key={web.id}
                 title={web.title}
                 tech={web.tech.slice(0, 4).join(", ")}
+                image1={web.images[0]}
+                image2={web.images[1]}
               />
             ))}
           </div>
