@@ -31,7 +31,7 @@ const data = {
       info: "Real estate web app built on React",
       logo: require("./images/logos/axtella.png"),
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: ["React", "Front-End", "UI/UX", "HTML5 - semantic"],
+      tech: ["React", "Front-End", "UI/UX", "HTML5"],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://richhomesgh.com",
