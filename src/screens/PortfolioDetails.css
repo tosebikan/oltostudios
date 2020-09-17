@@ -21,8 +21,8 @@
 
 @media (min-width: 1000px) {
   .portfolio-details__image-container {
-    width: 80vw;
-    height: 400px;
+    /* width: 80vw; */
+    /* height: 400px; */
   }
 }
 
@@ -35,6 +35,8 @@
 .logo__image {
   height: 50px;
   width: 100px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .portfolio-details__info h4 {
@@ -62,6 +64,7 @@
   .portfolio-details__image {
     width: 700px;
     height: 400px;
+    object-fit: contain;
   }
 
   .portfolio-details__group {
@@ -172,11 +175,17 @@
 
 .slides .slick-prev {
   left: 15%;
-  color: #000;
 }
 
 .slides .slick-next {
   right: 15%;
+}
+
+.slick-prev:before {
+  color: #000;
+}
+.slick-next:before {
+  color: #000;
 }
 
 .slick-arrow .slick-next {
