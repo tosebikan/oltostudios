@@ -1,4 +1,7 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./PortfolioDetails.css";
 import data from "../data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,17 +15,30 @@ import {
 function PortfolioDetailsScreen(props) {
   const project = data.projects.find((x) => x.id === props.match.params.id);
 
+  const settings = {
+    dots: true,
+    fade: true,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    className: "slides"
+  };
+
   return (
     <div className="portfolio-details__hero">
       <h4>{project.title}</h4>
       <p>{project.info}</p>
       <div className="portfolio-details__group">
         <div className="portfolio-details__image-container">
-          <img
-            src={project.images[0]}
-            alt=""
-            className="portfolio-details__image"
-          />
+          <Slider {...settings}>
+            {project.images.map((image) => (
+              <img src={image} alt="" className="portfolio-details__image" />
+            ))}
+          </Slider>
         </div>
         <div className="portfolio-details__info">
           <img src={project.logo} alt="" className="logo__image" />
@@ -38,8 +54,8 @@ function PortfolioDetailsScreen(props) {
           </div>
           <div className="portfolio-details__resources">
             <a
-              target="_blank"
               rel="noreferrer"
+              target="_blank"
               href={`${project.url}`}
               className="project__link"
             >
