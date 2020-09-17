@@ -35,8 +35,13 @@ function PortfolioDetailsScreen(props) {
       <div className="portfolio-details__group">
         <div className="portfolio-details__image-container">
           <Slider {...settings}>
-            {project.images.map((image) => (
-              <img src={image} alt="" className="portfolio-details__image" />
+            {project.images.map((image, id) => (
+              <img
+                src={image}
+                alt=""
+                key={id}
+                className="portfolio-details__image"
+              />
             ))}
           </Slider>
         </div>
@@ -54,9 +59,9 @@ function PortfolioDetailsScreen(props) {
           </div>
           <div className="portfolio-details__resources">
             <a
-              rel="noreferrer"
-              target="_blank"
               href={`${project.url}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="project__link"
             >
               <button className="portfolio__github-button">
@@ -69,9 +74,9 @@ function PortfolioDetailsScreen(props) {
               </button>
             </a>
             <a
-              target="_blank"
-              rel="noreferrer"
               href={`${project.githubUrl}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="project__link"
             >
               <button className="portfolio__website-button">
