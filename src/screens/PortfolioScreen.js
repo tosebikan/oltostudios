@@ -19,6 +19,7 @@ function PortfolioScreen() {
   const redux = webProjects.filter((x) => x.tech.includes("Redux"));
   const mongoDB = webProjects.filter((x) => x.tech.includes("MongoDB"));
   const html5 = webProjects.filter((x) => x.tech.includes("HTML5"));
+
   const bootstrap = webProjects.filter((x) => x.tech.includes("Bootstrap"));
   const uiUx = webProjects.filter((x) => x.tech.includes("UI/UX"));
   const firebase = webProjects.filter((x) => x.tech.includes("Firebase"));
