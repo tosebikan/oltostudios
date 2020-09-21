@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleDoubleRight,
+  faPaperPlane
+} from "@fortawesome/free-solid-svg-icons";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./portfolio.css";
 import Card from "../components/Card";
@@ -161,7 +164,7 @@ function MobilePortfolioScreen() {
       </Tabs>
       <Link to="/portfolio" className="portfolio-screen-button-container">
         <div className="link-holder">
-          <p>web portfolio</p>
+          <p>web dev portfolio</p>
           <span className="link-span">
             <FontAwesomeIcon
               icon={faAngleDoubleRight}
@@ -170,6 +173,14 @@ function MobilePortfolioScreen() {
           </span>
         </div>
       </Link>
+      <div className="portfolio__contact">
+        <Link to="contact">
+          <button className="github-button">
+            <FontAwesomeIcon icon={faPaperPlane} className="github-icon" />
+            Contact Me
+          </button>{" "}
+        </Link>
+      </div>
     </div>
   );
 }
