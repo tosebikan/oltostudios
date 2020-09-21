@@ -79,6 +79,8 @@ function PortfolioScreen() {
                 key={react.id}
                 title={react.title}
                 tech={react.tech.slice(0, 4).join(", ")}
+                image1={react.images[0]}
+                image2={react.images[1]}
               />
             ))}
           </div>
@@ -92,6 +94,8 @@ function PortfolioScreen() {
                 key={frontEnd.id}
                 title={frontEnd.title}
                 tech={frontEnd.tech.slice(0, 4).join(", ")}
+                image1={frontEnd.images[0]}
+                image2={frontEnd.images[1]}
               />
             ))}
           </div>
@@ -105,6 +109,8 @@ function PortfolioScreen() {
                 key={fullStack.id}
                 title={fullStack.title}
                 tech={fullStack.tech.slice(0, 4).join(", ")}
+                image1={fullStack.images[0]}
+                image2={fullStack.images[1]}
               />
             ))}
           </div>
@@ -118,6 +124,8 @@ function PortfolioScreen() {
                 key={backEnd.id}
                 title={backEnd.title}
                 tech={backEnd.tech.slice(0, 4).join(", ")}
+                image1={backEnd.images[0]}
+                image2={backEnd.images[1]}
               />
             ))}
           </div>
@@ -131,6 +139,8 @@ function PortfolioScreen() {
                 key={redux.id}
                 title={redux.title}
                 tech={redux.tech.slice(0, 4).join(", ")}
+                image1={redux.images[0]}
+                image2={redux.images[1]}
               />
             ))}
           </div>
@@ -144,6 +154,8 @@ function PortfolioScreen() {
                 key={mongoDB.id}
                 title={mongoDB.title}
                 tech={mongoDB.tech.slice(0, 4).join(", ")}
+                image1={mongoDB.images[0]}
+                image2={mongoDB.images[1]}
               />
             ))}
           </div>
@@ -157,6 +169,8 @@ function PortfolioScreen() {
                 key={html5.id}
                 title={html5.title}
                 tech={html5.tech.slice(0, 4).join(", ")}
+                image1={html5.images[0]}
+                image2={html5.images[1]}
               />
             ))}
           </div>
@@ -170,6 +184,8 @@ function PortfolioScreen() {
                 key={bootstrap.id}
                 title={bootstrap.title}
                 tech={bootstrap.tech.slice(0, 4).join(", ")}
+                image1={bootstrap.images[0]}
+                image2={bootstrap.images[1]}
               />
             ))}
           </div>
@@ -183,6 +199,8 @@ function PortfolioScreen() {
                 key={uiUx.id}
                 title={uiUx.title}
                 tech={uiUx.tech.slice(0, 4).join(", ")}
+                image1={uiUx.images[0]}
+                image2={uiUx.images[1]}
               />
             ))}
           </div>
@@ -196,6 +214,8 @@ function PortfolioScreen() {
                 key={firebase.id}
                 title={firebase.title}
                 tech={firebase.tech.slice(0, 4).join(", ")}
+                image1={firebase.images[0]}
+                image2={firebase.images[1]}
               />
             ))}
           </div>
