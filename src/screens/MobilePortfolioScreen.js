@@ -62,6 +62,8 @@ function MobilePortfolioScreen() {
                 key={mobile.id}
                 title={mobile.title}
                 tech={mobile.tech.slice(0, 4).join(", ")}
+                image1={mobile.images[0]}
+                image2={mobile.images[1]}
               />
             ))}
           </div>
@@ -74,6 +76,8 @@ function MobilePortfolioScreen() {
                 key={rn.id}
                 title={rn.title}
                 tech={rn.tech.slice(0, 4).join(", ")}
+                image1={rn.images[0]}
+                image2={rn.images[1]}
               />
             ))}
           </div>
@@ -86,6 +90,8 @@ function MobilePortfolioScreen() {
                 key={fb.id}
                 title={fb.title}
                 tech={fb.tech.slice(0, 4).join(", ")}
+                image1={fb.images[0]}
+                image2={fb.images[1]}
               />
             ))}
           </div>
@@ -98,6 +104,8 @@ function MobilePortfolioScreen() {
                 key={frontEnd.id}
                 title={frontEnd.title}
                 tech={frontEnd.tech.slice(0, 4).join(", ")}
+                image1={frontEnd.images[0]}
+                image2={frontEnd.images[1]}
               />
             ))}
           </div>
@@ -110,6 +118,8 @@ function MobilePortfolioScreen() {
                 key={fullStack.id}
                 title={fullStack.title}
                 tech={fullStack.tech.slice(0, 4).join(", ")}
+                image1={fullStack.images[0]}
+                image2={fullStack.images[1]}
               />
             ))}
           </div>
@@ -122,6 +132,8 @@ function MobilePortfolioScreen() {
                 key={backEnd.id}
                 title={backEnd.title}
                 tech={backEnd.tech.slice(0, 4).join(", ")}
+                image1={backEnd.images[0]}
+                image2={backEnd.images[1]}
               />
             ))}
           </div>
@@ -134,6 +146,8 @@ function MobilePortfolioScreen() {
                 card={redux.id}
                 title={redux.title}
                 tech={redux.tech.slice(0, 4).join(", ")}
+                image1={redux.images[0]}
+                image2={redux.images[1]}
               />
             ))}
           </div>
@@ -145,6 +159,8 @@ function MobilePortfolioScreen() {
                 key={mongoDB.id}
                 title={mongoDB.title}
                 tech={mongoDB.tech.slice(0, 4).join(", ")}
+                image1={mongoDB.images[0]}
+                image2={mongoDB.images[1]}
               />
             ))}
           </div>
@@ -157,6 +173,8 @@ function MobilePortfolioScreen() {
                 key={uiux.id}
                 title={uiux.title}
                 tech={uiux.tech.slice(0, 4).join(", ")}
+                image1={uiux.images[0]}
+                image2={uiux.images[1]}
               />
             ))}
           </div>
