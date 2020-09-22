@@ -18,10 +18,11 @@
   background-color: #fff;
 }
 
-.contact__group img {
+.animation {
+  margin: 0 auto;
   width: 290px;
   height: 260px;
-  border-radius: 20px;
+  overflow: hidden;
 }
 
 .contact__form {
@@ -46,12 +47,6 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* .contact__button {
-  width: 100px;
-  padding: 8px 20px;
-  border: none;
-  border-radius: 20px;
-} */
 .contact__button {
   width: 100px;
   padding: 8px 20px;
@@ -82,7 +77,14 @@
     width: 50%;
   }
 
-  .contact__group img {
+  .animation {
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .ani {
     height: 400px;
     width: 400px;
     object-fit: cover;
