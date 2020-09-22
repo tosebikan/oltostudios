@@ -17,7 +17,16 @@ function ContactScreen() {
         <span>oltostudios@gmail.com </span>& i’ll get back to you!
       </p>
       <div className="contact__group">
-        <img src={require("../images/web2img.png")} alt="" />
+        <div className="animation">
+          <lottie-player
+            src="https://assets3.lottiefiles.com/packages/lf20_PG0c0U.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+
         <div className="contact__formContainer">
           <form className="contact__form">
             <h4>Get in Touch</h4>
