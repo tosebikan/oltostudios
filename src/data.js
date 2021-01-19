@@ -137,7 +137,7 @@ const data = {
     {
       id: "6",
       title: "Spineup",
-      info: "Real estate web app built on React",
+      info: "Medical Appointment app built with React-Native & Firebase",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: [
@@ -146,7 +146,8 @@ const data = {
         "Front-End",
         "Back-End",
         "Full-Stack",
-        "UI/UX"
+        "UI/UX",
+        "Redux"
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
@@ -157,7 +158,28 @@ const data = {
     {
       id: "7",
       title: "Enroute",
-      info: "Real estate web app built on React",
+      info:
+        "Recurring vehicle hailing service mobile app built on React-Native",
+      logo: 'require("./images/logos/axtella")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: [
+        "React-Native",
+        "Front-End",
+        "UI/UX",
+        "Socket",
+        "Back-End",
+        "Redux"
+      ],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://richhomesgh.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "8",
+      title: "Newsify",
+      info: "News mobile app built on React-Native",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX"],
@@ -168,22 +190,9 @@ const data = {
       type: "mobile"
     },
     {
-      id: "8",
-      title: "Newsify",
-      info: "Real estate web app built on React",
-      logo: 'require("./images/logos/axtella")',
-      images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: ["React-Native", "Front-End", "UI/UX", "Back-End"],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com",
-      githubUrl: "https://richhomesgh.com",
-      type: "mobile"
-    },
-    {
       id: "9",
       title: "Movees",
-      info: "Real estate web app built on React",
+      info: "Movie Directory mobile app built on React-Native",
       logo: 'require("./images/logos/axtella")',
       images: [require("./images/webimg.png"), require("./images/web2img.png")],
       tech: ["React-Native", "Front-End", "UI/UX"],
@@ -232,6 +241,61 @@ const data = {
       url: "https://www.axtellagh.com",
       githubUrl: "https://github.com/tosebikan/axtella",
       type: "web"
+    },
+    {
+      id: "12",
+      title: "Pakam",
+      info: "Waste Recycling mobile app for users built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: [
+        "React-Native",
+        "Front-End",
+        "UI/UX",
+        "Firebase",
+        "Open-Tok",
+        "Google-Map"
+      ],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "12",
+      title: "PakamRecycler",
+      info:
+        "Waste Recycling Collection mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: [
+        "React-Native",
+        "Front-End",
+        "UI/UX",
+        "Firebase",
+        "Open-Tok",
+        "Google-Map"
+      ],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
+    },
+    {
+      id: "13",
+      title: "AGS",
+      info:
+        "Social Network for women empowerment mobile app for recyclers built with React-Native",
+      logo: 'require("./images/logos/axtella.png")',
+      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      tech: ["React-Native", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://pharma.com",
+      githubUrl: "https://richhomesgh.com",
+      type: "mobile"
     }
   ]
 };
