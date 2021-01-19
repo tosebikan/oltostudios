@@ -46,7 +46,12 @@ function PortfolioDetailsScreen(props) {
           </Slider>
         </div>
         <div className="portfolio-details__info">
-          <img src={project.logo} alt="" className="logo__image" />
+          {project.logo === null ? (
+            <h1>{project.title}</h1>
+          ) : (
+            <img src={project.logo} alt="" className="logo__image" />
+          )}
+
           <p>{project.description}</p>
           <h4>technical sheet</h4>
           <p>Technologies used to complete the project</p>

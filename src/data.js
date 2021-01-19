@@ -66,9 +66,15 @@ const data = {
     {
       id: "3",
       title: "Carparts",
-      info: "Real estate web app built on React",
-      logo: 'require("./images/logos/axtella")',
-      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      info:
+        "A niche Fullstack Ecommerce Web App for selling car parts built with react, redux, node.js, mongoDB... ",
+      logo: null,
+      images: [
+        require("./images/cp/cp1.jpg"),
+        require("./images/cp/cp2.jpg"),
+        require("./images/cp/cp3.jpg"),
+        require("./images/cp/cp4.jpg")
+      ],
       tech: [
         "React",
         "Redux",
@@ -76,7 +82,8 @@ const data = {
         "Full-Stack",
         "Front-End",
         "UI/UX",
-        "Back-End"
+        "Back-End",
+        "Node.Js"
       ],
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
@@ -87,20 +94,23 @@ const data = {
     {
       id: "4",
       title: "Todos",
-      logo: 'require("./images/logos/axtella")',
-      images: [require("./images/webimg.png"), require("./images/web2img.png")],
+      logo: null,
+      images: [
+        require("./images/todo/todo1.jpg"),
+        require("./images/todo/todo2.jpg")
+      ],
       tech: [
         "React",
+        "Redux",
         "Full-Stack",
         "Front-End",
         "UI/UX",
         "MongoDB",
         "Back-End"
       ],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com",
-      githubUrl: "https://richhomesgh.com",
+      description: "A simple todo application built with redux.",
+      url: "https://todoredux.netlify.app",
+      githubUrl: "https://github.com/tosebikan/redux-todo",
       type: "web"
     },
     {

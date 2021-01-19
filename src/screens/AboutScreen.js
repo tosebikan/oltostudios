@@ -13,7 +13,7 @@ function AboutScreen() {
   return (
     <div className="about-hero">
       <div className="hero-text">
-        <h1>Hello, my name is Tosin Ola.</h1>
+        <h1>Hello, my name is Tosin T. Ola.</h1>
         <p>A full-stack developer & UI | UX specialist.</p>
         <p>I design & develop immersive web & mobile applications. </p>
         <div>

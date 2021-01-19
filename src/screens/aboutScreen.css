@@ -59,6 +59,7 @@
 }
 
 .portfolio-button {
+  padding-top: 7px;
   padding-left: 5px;
   font-size: 21px;
   animation: slide;
