@@ -213,6 +213,25 @@ const data = {
       url: "https://pharma.com",
       githubUrl: "https://richhomesgh.com",
       type: "mobile"
+    },
+    {
+      id: "11",
+      title: "ForexNation",
+      info: "Web site for a forex trading servive built with bootstrap",
+      logo: require("./images/logos/axtella.png"),
+      images: [
+        require("./images/ax/ax2.jpg"),
+        require("./images/ax/ax1.jpg"),
+
+        require("./images/ax/ax3.jpg"),
+        require("./images/ax/ax4.jpg")
+      ],
+      tech: ["Bootstrap", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://www.axtellagh.com",
+      githubUrl: "https://github.com/tosebikan/axtella",
+      type: "web"
     }
   ]
 };

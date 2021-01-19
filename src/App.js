@@ -102,14 +102,16 @@ function App() {
             </li>
           </ul>
           <hr className="sidebar__hr" />
-          <div className="sidebar__profile">
-            <img
-              src={require("./images/profile.jpg")}
-              alt=""
-              className="profile__image"
-            />
-            <p>Tosin Ola.</p>
-          </div>
+          <Link to="/" onClick={toggle}>
+            <div className="sidebar__profile">
+              <img
+                src={require("./images/profile.jpg")}
+                alt=""
+                className="profile__image"
+              />
+              <p>Tosin Ola.</p>
+            </div>
+          </Link>
         </aside>
 
         <main>
