@@ -37,9 +37,9 @@ const data = {
         require("./images/rh/rh4.jpg"),
         require("./images/rh/rh5.jpg")
       ],
-      tech: ["React", "Front-End", "UI/UX", "HTML5"],
+      tech: ["React", "CSS", "UI/UX", "HTML5", "Front-End"],
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+        "Richhomes is a real estate company that deals in the selling & renting of affordable luxury properties, the web app was created for prospective clients to be able to go through listings available by the company and to get access to the company at all times from any location without a physical barrier, whilst engaging enough to retain them.",
       url: "https://richhomesgh.com",
       githubUrl: "https://github.com/tosebikan/richhomesgh",
       type: "web"
