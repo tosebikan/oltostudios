@@ -63,56 +63,8 @@ const data = {
       githubUrl: "https://github.com/tosebikan/richhomesgh",
       type: "web"
     },
-    {
-      id: "3",
-      title: "Carparts",
-      info:
-        "A niche Fullstack Ecommerce Web App for selling car parts built with react, redux, node.js, mongoDB... ",
-      logo: null,
-      images: [
-        require("./images/cp/cp1.jpg"),
-        require("./images/cp/cp2.jpg"),
-        require("./images/cp/cp3.jpg"),
-        require("./images/cp/cp4.jpg")
-      ],
-      tech: [
-        "React",
-        "Redux",
-        "MongoDB",
-        "Full-Stack",
-        "Front-End",
-        "UI/UX",
-        "Back-End",
-        "Node.Js"
-      ],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com",
-      githubUrl: "https://richhomesgh.com",
-      type: "web"
-    },
-    {
-      id: "4",
-      title: "Todos",
-      logo: null,
-      images: [
-        require("./images/todo/todo1.jpg"),
-        require("./images/todo/todo2.jpg")
-      ],
-      tech: [
-        "React",
-        "Redux",
-        "Full-Stack",
-        "Front-End",
-        "UI/UX",
-        "MongoDB",
-        "Back-End"
-      ],
-      description: "A simple todo application built with redux.",
-      url: "https://todoredux.netlify.app",
-      githubUrl: "https://github.com/tosebikan/redux-todo",
-      type: "web"
-    },
+  
+  
     {
       id: "5",
       title: "Pharma",
