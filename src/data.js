@@ -176,72 +176,10 @@ const data = {
       githubUrl: "https://richhomesgh.com",
       type: "mobile"
     },
-    {
-      id: "8",
-      title: "Newsify",
-      info: "News mobile app built on React-Native",
-      logo: 'require("./images/logos/axtella")',
-      images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: ["React-Native", "Front-End", "UI/UX"],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com",
-      githubUrl: "https://richhomesgh.com",
-      type: "mobile"
-    },
-    {
-      id: "9",
-      title: "Movees",
-      info: "Movie Directory mobile app built on React-Native",
-      logo: 'require("./images/logos/axtella")',
-      images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: ["React-Native", "Front-End", "UI/UX"],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://richhomesgh.com",
-      githubUrl: "https://richhomesgh.com",
-      type: "mobile"
-    },
-    {
-      id: "10",
-      title: "Chatter",
-      info: "Real estate web app built on React",
-      logo: 'require("./images/logos/axtella.png")',
-      images: [require("./images/webimg.png"), require("./images/web2img.png")],
-      tech: [
-        "React-Native",
-        "Full-Stack",
-        "Front-End",
-        "UI/UX",
-        "Firebase",
-        "Back-End",
-        "Mongodb"
-      ],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://pharma.com",
-      githubUrl: "https://richhomesgh.com",
-      type: "mobile"
-    },
-    {
-      id: "11",
-      title: "ForexNation",
-      info: "Web site for a forex trading servive built with bootstrap",
-      logo: require("./images/logos/axtella.png"),
-      images: [
-        require("./images/ax/ax2.jpg"),
-        require("./images/ax/ax1.jpg"),
-
-        require("./images/ax/ax3.jpg"),
-        require("./images/ax/ax4.jpg")
-      ],
-      tech: ["Bootstrap", "Front-End", "UI/UX"],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://www.axtellagh.com",
-      githubUrl: "https://github.com/tosebikan/axtella",
-      type: "web"
-    },
+  
+  
+  
+  
     {
       id: "12",
       title: "Pakam",
