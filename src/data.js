@@ -25,6 +25,25 @@ const data = {
   ],
   projects: [
     {
+      id: "2",
+      title: "Axtella",
+      info: "Real estate web app built on React",
+      logo: require("./images/logos/axtella.png"),
+      images: [
+        require("./images/ax/ax2.jpg"),
+        require("./images/ax/ax1.jpg"),
+
+        require("./images/ax/ax3.jpg"),
+        require("./images/ax/ax4.jpg")
+      ],
+      tech: ["Gatsby", "Front-End", "UI/UX"],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
+      url: "https://www.axtellagh.com",
+      githubUrl: "https://github.com/tosebikan/axtella",
+      type: "web"
+    },
+    {
       id: "1",
       title: "Richhomes",
 
@@ -42,25 +61,6 @@ const data = {
         "Richhomes is a real estate company that deals in the selling & renting of affordable luxury properties, the web app was created for prospective clients to be able to go through listings available by the company and to get access to the company at all times from any location without a physical barrier, whilst engaging enough to retain them.",
       url: "https://richhomesgh.com",
       githubUrl: "https://github.com/tosebikan/richhomesgh",
-      type: "web"
-    },
-    {
-      id: "2",
-      title: "Axtella",
-      info: "Real estate web app built on React",
-      logo: require("./images/logos/axtella.png"),
-      images: [
-        require("./images/ax/ax2.jpg"),
-        require("./images/ax/ax1.jpg"),
-
-        require("./images/ax/ax3.jpg"),
-        require("./images/ax/ax4.jpg")
-      ],
-      tech: ["Gatsby", "Front-End", "UI/UX"],
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
-      url: "https://www.axtellagh.com",
-      githubUrl: "https://github.com/tosebikan/axtella",
       type: "web"
     },
     {
