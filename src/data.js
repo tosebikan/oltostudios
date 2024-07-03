@@ -331,7 +331,7 @@ const data = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://pharma.com",
       githubUrl: "https://richhomesgh.com",
-      type: "mobile"
+      type: "web"
     },
     {
       id: "25",
@@ -345,7 +345,7 @@ const data = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis.",
       url: "https://pharma.com",
       githubUrl: "https://richhomesgh.com",
-      type: "mobile"
+      type: "web"
     },
     {
       id: "26",
